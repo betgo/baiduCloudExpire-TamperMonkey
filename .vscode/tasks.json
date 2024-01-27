@@ -5,14 +5,14 @@
   "tasks": [
     {
       "type": "shell",
-      "command": "npm run start",
+      "command": "pnpm run start",
       "group": "build",
       "problemMatcher": [],
       "label": "start"
     },
     {
       "type": "shell",
-      "command": "npm run dev",
+      "command": "pnpm run dev",
       "group": "build",
       "problemMatcher": [],
       "label": "dev"

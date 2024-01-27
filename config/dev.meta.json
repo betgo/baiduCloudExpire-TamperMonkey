@@ -1,7 +1,17 @@
 {
-  "name": "斗鱼直播助手-dev",
-  "namespace": "https://github.com/Eished/douyu-helper-dev",
-  "match": ["*://*.douyu.com/*", "*://*.localhost/*"],
-  "grant": ["GM_getValue", "GM_setValue", "GM_registerMenuCommand", "GM_addValueChangeListener"],
-  "require": ["file://\\\\wsl$\\Ubuntu-20.04\\home\\eis\\web\\tampermonkey-template\\dist\\douyu.dev.user.js"]
+  "name": "百度网盘链接失效-dev",
+  "namespace": "https://github.com/betgo/baiduCloudExpire-TamperMonkey",
+  "match": ["*://*/*", "*://*.localhost/*"],
+  "grant": [
+    "GM_getValue",
+    "GM_setValue",
+    "GM_registerMenuCommand",
+    "GM_addValueChangeListener",
+    "unsafeWindow",
+    "GM_xmlhttpRequest"
+  ],
+  "require": [
+    "file://D:\\code\\TamperMonkey\\baiduCloudExpire-TamperMonkey\\dist\\douyu.dev.user.js",
+    "http://libs.baidu.com/jquery/2.0.0/jquery.min.js"
+  ]
 }

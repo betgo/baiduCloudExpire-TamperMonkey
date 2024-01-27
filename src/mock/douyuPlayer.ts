@@ -19,7 +19,10 @@ export const douyuPlayer = () => {
         <li>蓝光</li>
         <li>超清</li>
         <li class="selected-123">高清</li>
-      </ul>`;
+        <li>https://pan.baidu.com/s/1k8LJf3xWmVvYAIBNDn0yFA?pwd=pqn2</li>
+      </ul>
+      <div>https://pan.baidu.com/s/1k8LJf3xWmVvYAIBNDaaA?pwd=pqn2</div>
+      `;
 
     const list = document.querySelectorAll('li');
     list.forEach((li) => {
