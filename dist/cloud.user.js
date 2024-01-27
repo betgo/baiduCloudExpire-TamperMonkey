@@ -13,6 +13,9 @@
 // @grant               GM_getValue
 // @grant               GM_setValue
 // @grant               GM_registerMenuCommand
+// @grant               unsafeWindow
+// @grant               GM_xmlhttpRequest
+// @require             http://libs.baidu.com/jquery/2.0.0/jquery.min.js
 // @icon                https://www.google.com/s2/favicons?domain=pan.baidu.com
 // ==/UserScript==
 /* eslint-disable */ /* spell-checker: disable */
