@@ -24,7 +24,7 @@
 
 node_modules/
 dist/*
-!/dist/douyu.user.js 
+!/dist/cloud.user.js 
 npm-debug.log
 yarn-error.log
 

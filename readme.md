@@ -31,7 +31,7 @@
 然后修改开发环境油猴头文件信息：[`config/dev.meta.json`](config/dev.meta.json) 内下述代码改为自己存放项目的文件路径。
 
 ```json
-"require": ["file://<你的文件路径>/tampermonkey-template/dist/douyu.dev.user.js"]
+"require": ["file://<你的文件路径>/tampermonkey-template/dist/cloud.dev.user.js"]
 ```
 
 > 油猴头文件默认配置在 [`config/common.meta.json`](config/common.meta.json)，按需修改。
@@ -54,7 +54,7 @@ VSCode 内 `ctrl + shift + B` 选择 `start & dev`
 
 ### 或手动安装：
 
-[`dist/douyu.dev.user.js`](dist/douyu.dev.user.js) 复制油猴**头文件**，在浏览器油猴插件新建脚本，粘贴进去，刷新浏览器打开的本地页面，看到可选择的清晰度选项时油猴脚本即正常运行。
+[`dist/cloud.dev.user.js`](dist/cloud.dev.user.js) 复制油猴**头文件**，在浏览器油猴插件新建脚本，粘贴进去，刷新浏览器打开的本地页面，看到可选择的清晰度选项时油猴脚本即正常运行。
 
 ## 开发和调试脚本
 
@@ -90,7 +90,7 @@ VSCode 内 `ctrl + shift + B` 选择 `start & dev`
 
 运行 `npm run build`
 
-生成文件文件：[`dist/douyu.user.js`](dist/douyu.user.js)
+生成文件文件：[`dist/cloud.user.js`](dist/cloud.user.js)
 
 ## 适应其它网站
 
@@ -106,19 +106,19 @@ VSCode 内 `ctrl + shift + B` 选择 `start & dev`
 
 ```json
  "scripts": {
-    "start": "xxxxx --env filename=douyu.dev.user.js", // 开发环境脚本的文件名
-    "dev": "xxxxx --env filename=douyu.dev.user.js", // 开发环境脚本的文件名
-    "build": "xxxx --env filename=douyu.user.js", // 生产环境脚本的文件名
+    "start": "xxxxx --env filename=cloud.dev.user.js", // 开发环境脚本的文件名
+    "dev": "xxxxx --env filename=cloud.dev.user.js", // 开发环境脚本的文件名
+    "build": "xxxx --env filename=cloud.user.js", // 生产环境脚本的文件名
   },
 ```
 
 ## 引入 CSS
 
-默认支持 css 和 less，参考 [`src/mock/douyu.less`](src/mock/douyu.less)
+默认支持 css 和 less，参考 [`src/mock/cloud.less`](src/mock/cloud.less)
 
 ## 安装依赖
 
-`npm install <安装的包名>` 或者 `yarn add <安装的包名>`，Webpack 会自动将依赖打包进 [`dist/douyu.user.js`](dist/douyu.user.js)。
+`npm install <安装的包名>` 或者 `yarn add <安装的包名>`，Webpack 会自动将依赖打包进 [`dist/cloud.user.js`](dist/cloud.user.js)。
 
 ### 排除依赖项减小脚本大小
 

@@ -1,7 +1,7 @@
-import './douyu.less';
+import './cloud.less';
 
 // 简单模拟斗鱼播放器原本逻辑
-export const douyuPlayer = () => {
+export const cloudPlayer = () => {
   const videoSub = document.querySelector('.layout-Player-videoSub');
   if (!window.location.search) {
     window.location.search = '?rid=1';

@@ -11,7 +11,7 @@
     "GM_xmlhttpRequest"
   ],
   "require": [
-    "file://D:\\code\\TamperMonkey\\baiduCloudExpire-TamperMonkey\\dist\\douyu.dev.user.js",
+    "file://D:\\code\\TamperMonkey\\baiduCloudExpire-TamperMonkey\\dist\\cloud.dev.user.js",
     "http://libs.baidu.com/jquery/2.0.0/jquery.min.js"
   ]
 }

@@ -15,8 +15,8 @@ if (PRODUCTION) {
       autoInstall();
 
       // 运行不需要油猴环境的js，用于模拟目标网页原本逻辑。不需要模拟可以删除
-      import('@/mock/douyuPlayer').then(({ douyuPlayer }) => {
-        douyuPlayer();
+      import('@/mock/cloudPlayer').then(({ cloudPlayer }) => {
+        cloudPlayer();
       });
     }
   });
