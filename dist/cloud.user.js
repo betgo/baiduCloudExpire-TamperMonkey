@@ -21,7 +21,7 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 213:
+/***/ 752:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -35,7 +35,7 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
     return to.concat(ar || Array.prototype.slice.call(from));
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-var ajax_1 = __webpack_require__(786);
+var ajax_1 = __webpack_require__(516);
 var reg = /pan\.baidu\.com\/s\/[0-9a-zA-Z-_]{6,24}/g;
 var panUrls = [];
 var _observer = null;
@@ -101,7 +101,7 @@ exports["default"] = app;
 
 /***/ }),
 
-/***/ 874:
+/***/ 607:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -132,7 +132,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-var app_1 = __importDefault(__webpack_require__(213));
+var app_1 = __importDefault(__webpack_require__(752));
 if (true) {
     (0, app_1.default)();
 }
@@ -141,13 +141,13 @@ else {}
 
 /***/ }),
 
-/***/ 786:
+/***/ 516:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.postData = exports.getData = void 0;
-var message_1 = __webpack_require__(512);
+var message_1 = __webpack_require__(244);
 var getData = function (url, type, usermethod) {
     if (type === void 0) { type = "document" /* XhrResponseType.DOCUMENT */; }
     if (usermethod === void 0) { usermethod = "GET" /* XhrMethod.GET */; }
@@ -218,7 +218,7 @@ exports.postData = postData;
 
 /***/ }),
 
-/***/ 512:
+/***/ 244:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -377,7 +377,7 @@ exports.MessageBox = MessageBox;
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module is referenced by other modules so it can't be inlined
-/******/ 	var __webpack_exports__ = __webpack_require__(874);
+/******/ 	var __webpack_exports__ = __webpack_require__(607);
 /******/ 	
 /******/ })()
 ;
