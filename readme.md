@@ -1,8 +1,5 @@
-以斗鱼直播自动切换清晰度作为示例的油猴脚本开发模板
+百度链接失效标红提醒
 
-使用此模板发开油猴脚本的[视频教程](https://www.bilibili.com/video/BV1oB4y1478c) or [文字教程](https://iknow.fun/2022/08/03/vscode-webpack-typescript-you-hou-kai-fa-huan-jing-da-jian-ben-di-diao-shi-shi-shi-re-shua-xin-zi-dong-gou-jian-he-fa-bu/)
-
-使用此模板[创建油猴脚本项目](https://github.com/Eished/monkey-template/generate)
 
 ## 特性
 
